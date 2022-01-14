@@ -29,7 +29,7 @@
 - Line Bot
 
 **流程架構**
-![flow](https://storage.googleapis.com/catlife/cat/flow.png)
+![flow](https://storage.googleapis.com/catlife/cat/flow2.png)
 
 # 成品
 
