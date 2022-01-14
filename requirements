@@ -1,0 +1,10 @@
+line-bot-sdk
+Flask
+requests
+google-cloud-bigquery
+google-cloud-storage
+jwt
+PyJWT
+paho-mqtt
+picamera
+rpi.gpio
