@@ -55,7 +55,6 @@ class SendMessageFunction:
                 minimum_backoff_time *= 2
                 client.connect(self.args.mqtt_bridge_hostname, self.args.mqtt_bridge_port)
 
-            # payload = "{}/{}-payload-{}".format(args.registry_id, args.device_id, i)
             start_time = datetime.datetime.strftime( self.start_time,'%Y-%m-%d %H:%M:%S')
             end_time = datetime.datetime.strftime( self.end_time,'%Y-%m-%d %H:%M:%S')
             data = { 'date' : self.date ,'start_time':start_time,'end_time':end_time,'duration':self.duration}
@@ -79,21 +78,4 @@ class SendMessageFunction:
                     self.args.mqtt_bridge_hostname,
                     self.args.mqtt_bridge_port,
                 )
-            # Publish "payload" to the MQTT topic. qos=1 means at least once
-            # delivery. Cloud IoT Core also supports qos=0 for at most once
-            # delivery.
             client.publish(mqtt_topic, payload, qos=1)
-
-            # Send events every second. State should not be updated as often
-            # for i in range(0, 60):
-            #     time.sleep(1)
-            #     client.loop()
-        
-    
-
-
-# Publish to the events or state topic based on the flag.
-# sub_topic = "events" if args.message_type == "event" else "state"
-# sub_folder = 'mqtt'
-# mqtt_topic = "/devices/{}/{}/{}".format(args.device_id, sub_topic,sub_folder)
-
