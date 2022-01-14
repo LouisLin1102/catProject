@@ -27,3 +27,6 @@
 - Python Programming
 - Google Cloud Platform
 - Line Bot
+
+**流程架構**
+![flow](https://storage.googleapis.com/catlife/cat/flow.png)
