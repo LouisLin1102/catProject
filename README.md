@@ -27,6 +27,7 @@
 - Python Programming
 - Google Cloud Platform
 - Line Bot
+- VS Code
 
 **流程架構**
 ![flow](https://storage.googleapis.com/catlife/cat/flow2.png)
@@ -47,7 +48,8 @@
 **攝影機**
 ![photo](https://storage.googleapis.com/catlife/cat/IMG_4941.jpg)
 
-
+**Line Bot**
+![photo](https://storage.googleapis.com/catlife/cat/IMG_3188E9FC63C3-1.jpeg)
 
 **影片:**
 - https://youtu.be/Q7wo56F3GwQ
