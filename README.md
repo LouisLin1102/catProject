@@ -32,6 +32,22 @@
 ![flow](https://storage.googleapis.com/catlife/cat/flow2.png)
 
 # 成品
+**正面**
+![photo](https://storage.googleapis.com/catlife/cat/IMG_4939.jpg)
+
+**側面**
+![photo](https://storage.googleapis.com/catlife/cat/IMG_4944.jpg)
+
+**頂部**
+![photo](https://storage.googleapis.com/catlife/cat/IMG_4943.jpg)
+
+**內裝**
+![photo](https://storage.googleapis.com/catlife/cat/IMG_4940.jpg)
+
+**攝影機**
+![photo](https://storage.googleapis.com/catlife/cat/IMG_4941.jpg)
+
+
 
 **影片:**
 - https://youtu.be/Q7wo56F3GwQ
