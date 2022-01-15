@@ -54,3 +54,22 @@
 **影片:**
 - https://youtu.be/Q7wo56F3GwQ (白天)
 - https://youtu.be/OnHeCfSKVKs (晚上)
+
+# 參考資料
+- [Cloud IoT Core](https://cloud.google.com/iot/docs/quickstart)
+- [Cloud Function](https://cloud.google.com/functions/docs/how-to)
+- [Cloud Storage](https://cloud.google.com/storage/docs/introduction)
+- [Cloud BigQuery](https://cloud.google.com/bigquery/docs/introduction)
+- [Cloud Dataflow](https://cloud.google.com/dataflow/docs/quickstarts)
+- [Cloud Pub/Sub](https://cloud.google.com/pubsub/docs/quickstart-console)
+- [AI Robot Maker Space](https://airobot.ccu.edu.tw/chapter-6-google%E7%9A%84%E7%89%A9%E8%81%AF%E7%B6%B2%E8%A7%A3%E6%B1%BA%E6%96%B9%E6%A1%88/)
+- [物聯網氣象台](https://www.wandianshenme.com/play/mongoose-os-esp32-google-cloud-iot-core-build-mqtt-iot-weather/)
+- [淺談 Cloud Dataflow & Apache Beam 處理資料流](https://tech.hahow.in/%E6%B7%BA%E8%AB%87-cloud-dataflow-apache-beam-%E8%99%95%E7%90%86%E8%B3%87%E6%96%99%E6%B5%81-a1a73af87fe9)
+- [Python JWT](https://myapollo.com.tw/zh-tw/python-json-web-token/t)
+- [Python virtualenv](https://ithelp.ithome.com.tw/articles/10199980)
+- [Python 虛擬環境](https://www.gushiciku.cn/pl/gfCd/zh-tw)
+- [Python Chatbot 開發](https://qiu-yan-ming.gitbook.io/python-chatbot/shi-yong-line-bot-sdk)
+- [樹莓派Raspberry Pi之人體紅外線感測器實作](http://hophd.com/raspberry-pi-sensor-infrared/)
+- [[PIR] 簡易人體紅外線感應 (PIR) 模組測試電路](https://ruten-proteus.blogspot.com/2013/03/PIR-testing.html)
+- [超音波測距離](https://atceiling.blogspot.com/2014/03/raspberry-pi_18.html)
+- [Pi Camera](http://www.raspigeek.com/index.php?c=read&id=51&page=1)
