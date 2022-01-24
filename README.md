@@ -49,6 +49,13 @@
 - ![](https://storage.googleapis.com/catlife/temp/user_ID.png)
 **利用Heroku雲端部屬LINE Bot**
 1. [登入Heroku，免費創建](https://signup.heroku.com/)
+2. 建立Heroku 專案
+3. 可以選擇安裝Heroku Git 或是使用 GitHub Deploy LINE Bot，此次使用GitHub
+- ![](https://storage.googleapis.com/catlife/temp/heroku.png)
+4. GitHub的LINE Bot具備三個檔案
+- Procfile : Web執行檔案(app.py)
+- app.py : 主程式邏輯
+- requirements.txt : import library
 
 # 成品
 **正面**
