@@ -35,7 +35,7 @@
 **線路圖**
 ![flow2](https://storage.googleapis.com/catlife/temp/pi.png)
 
-**Create Line Bot **
+**LINE Bot Setting**
 1. [登入LINE Developers](https://developers.line.biz/zh-hant/services/bot-designer/)
 2. Create a new Provider 
 - ![](https://storage.googleapis.com/catlife/temp/line_create_provider.png)
@@ -47,6 +47,8 @@
 - ![](https://storage.googleapis.com/catlife/temp/channel_token.png)
 6. User ID : 收信息使用者ID，位於Basic settings
 - ![](https://storage.googleapis.com/catlife/temp/user_ID.png)
+**利用Heroku雲端部屬LINE Bot**
+1. [登入Heroku，免費創建](https://signup.heroku.com/)
 
 # 成品
 **正面**
