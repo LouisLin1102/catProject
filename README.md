@@ -54,7 +54,7 @@
 - ![](https://storage.googleapis.com/catlife/temp/heroku.png)
 4. GitHub的LINE Bot具備三個檔案
 - Procfile : Web執行檔案(app.py)
-- app.py : 主程式邏輯
+- app.py : 主程式邏輯，LINE Bot 相關憑證都要加入此檔案中
 - requirements.txt : import library
 
 # 成品
