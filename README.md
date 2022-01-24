@@ -32,7 +32,7 @@
 **流程架構**
 ![flow](https://storage.googleapis.com/catlife/cat/flow2.png)
 
-**線路圖**
+**電路圖**
 ![flow2](https://storage.googleapis.com/catlife/temp/pi.png)
 
 **LINE Bot Setting**
