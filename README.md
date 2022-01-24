@@ -56,6 +56,12 @@
 - Procfile : Web執行檔案(app.py)
 - app.py : 主程式邏輯，LINE Bot 相關憑證都要加入此檔案中
 - requirements.txt : import library
+5. Deploy LINE Bot
+- ![](https://storage.googleapis.com/catlife/temp/heroku_deploy.png)
+**LINE Bot Webhook URL Setting**
+1. 登入 LINE Developers，在Messaging API頁籤中，Webhook URL的地方，填入Heroku雲端平台賦予的HTTPS網址，來連接LINE Bot應用程式
+- ![](https://storage.googleapis.com/catlife/temp/webhook_url.png)
+
 
 # 成品
 **正面**
