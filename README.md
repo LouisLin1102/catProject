@@ -61,6 +61,8 @@
 **LINE Bot Webhook URL Setting**
 1. 登入 LINE Developers，在Messaging API頁籤中，Webhook URL的地方，填入Heroku雲端平台賦予的HTTPS網址，來連接LINE Bot應用程式
 - ![](https://storage.googleapis.com/catlife/temp/webhook_url.png)
+2. 測試
+- ![](https://storage.googleapis.com/catlife/temp/line_test.png)
 
 
 # 成品
