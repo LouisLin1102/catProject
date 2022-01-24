@@ -32,6 +32,8 @@
 **流程架構**
 ![flow](https://storage.googleapis.com/catlife/cat/flow2.png)
 
+**線路圖**
+![flow2](https://storage.googleapis.com/catlife/temp/pi.png)
 # 成品
 **正面**
 ![photo](https://storage.googleapis.com/catlife/cat/IMG_4939.jpg)
