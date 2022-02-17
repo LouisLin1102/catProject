@@ -11,7 +11,7 @@
 # 功能
 - 統計貓咪進入便盆次數，當次數異常時，藉由通訊軟體通知飼主，並提供照片觀察情況。
 # 觀察對象
-![cat](https://storage.googleapis.com/catlife/cat/BEA406EF-54BD-4CEA-80AA-63305910C78C_1_105_c.jpeg)
+![cat](https://lh5.googleusercontent.com/8WqYPe0HUNuGbjoH3E2CuVfUzFm6--J8tDbZsbj2oCadjbiqS9BI7RkYHlXuhk4FnxxLRz1L6SocDcb3ystR=w1037-h1057-rw)
 
 # 整體架構
 **硬體架構**
@@ -30,59 +30,59 @@
 - VS Code
 
 **流程架構**
-![flow](https://storage.googleapis.com/catlife/cat/flow2.png)
+![flow](https://lh3.googleusercontent.com/phJmvUqzU1OrDird0XP9qNC-v8W3trqkvjUO_8Xx_yhQZzM7DdoeOVWBzKPjmom4wSVinejdzBAXgeg0XwyB=w1920-h1057-rw)
 
 **電路圖**
-![flow2](https://storage.googleapis.com/catlife/temp/pi.png)
+![flow2](https://lh5.googleusercontent.com/GF6y2XS-bipPy6E6g5y8gaaaFub6POdP5-cpS7bfG1V4NCR9bOfN-d9noOIdj9Xfecxh-pRrLjKlBnHeJoAA=w1920-h1057-rw)
 
 **LINE Bot Setting**
 1. [登入LINE Developers](https://developers.line.biz/zh-hant/services/bot-designer/)
 2. Create a new Provider 
-- ![](https://storage.googleapis.com/catlife/temp/line_create_provider.png)
+- ![](https://lh6.googleusercontent.com/IUegsenf1sTCtwFlQM4TkIkBvu9CCcqDBQq7vbF3hjfPYbu_9LFS_oDDIHuZQyT8NlsbN7S9nG8NYLD9aNOU=w1037-h1057)
 3. Create a new Channel
-- ![](https://storage.googleapis.com/catlife/temp/message_api_channel.png)
+- ![](https://lh5.googleusercontent.com/4mNW-DtPi8WtbwR6SZIQAs-awIpsnXGG-vKN08pJ13EB_PmkgfqANOR9oQLLWBw-OgS9-TstJQwtks1H_ZYz=w1037-h1057-rw)
 4. Channel secret : 頻道密碼，位於Basic settings
-- ![](https://storage.googleapis.com/catlife/temp/channel_secret.png)
+- ![](https://lh5.googleusercontent.com/xKPTeeYvCF87GZiIyJuurJqttTzTOe7q_aGxx_nv71wisnK7o8R2tmdNK93G64a8y6w85Z-GiOnhJW3Z2flo=w1920-h1057-rw)
 5. Channel access token : 頻道憑證，位於Messaging API
-- ![](https://storage.googleapis.com/catlife/temp/channel_token.png)
+- ![](https://lh4.googleusercontent.com/iEy7-fYQeZ7SOUEAhDxtaczlS8rudVf48YYeqA65TlhQmROVk2US8_EJ7HfP6RvvjtXX1BbVtBYgoFDD5GP9=w1037-h1057-rw)
 6. User ID : 收信息使用者ID，位於Basic settings
-- ![](https://storage.googleapis.com/catlife/temp/user_ID.png)
+- ![](https://lh6.googleusercontent.com/hqoffiJsJ2QBoa3BXnHIV4_zOqxrAAFCmsj3snU-xzwiyWESiBOmSatJN-AOuOCPAL0GnEnuDOxat3k_nr_V=w1037-h1057-rw)
 **利用Heroku雲端部屬LINE Bot**
 1. [登入Heroku，免費創建](https://signup.heroku.com/)
 2. 建立Heroku 專案
 3. 可以選擇安裝Heroku Git 或是使用 GitHub Deploy LINE Bot，此次使用GitHub
-- ![](https://storage.googleapis.com/catlife/temp/heroku.png)
+- ![](https://lh3.googleusercontent.com/lSXN7n9CtpwDCewydjb0wUDncWL9z7klfMEqiTkwYewPyL9oDFE7D6LhRyXnxHcZFOCWdmzANfVXoVEJUjlq=w1037-h1057-rw)
 4. GitHub的LINE Bot具備三個檔案
 - Procfile : Web執行檔案(app.py)
 - app.py : 主程式邏輯，LINE Bot 相關憑證都要加入此檔案中
 - requirements.txt : import library
 5. Deploy LINE Bot
-- ![](https://storage.googleapis.com/catlife/temp/heroku_deploy.png)
+- ![](https://lh6.googleusercontent.com/2p1c7ei6pl99HHCLQbtuDzVm32h83gs2Nh2djCm9jKUlmFQ62wqiruXEWLuqOAJhG1L9Az_AfI8VBju32rQ1=w1920-h1057-rw)
 **LINE Bot Webhook URL Setting**
 1. 登入 LINE Developers，在Messaging API頁籤中，Webhook URL的地方，填入Heroku雲端平台賦予的HTTPS網址，來連接LINE Bot應用程式
-- ![](https://storage.googleapis.com/catlife/temp/webhook_url.png)
+- ![](https://lh3.googleusercontent.com/AoXBYWxS27N-2POpcJiZdUdyAXxstQ2gBiQLbh7ydynmeHuMFF3Bg39RBDTf2oybFlTjfZLVcmYM0Rj26YYO=w1037-h1057-rw)
 2. 測試
-- ![](https://storage.googleapis.com/catlife/temp/line_test.png)
+- ![](https://lh5.googleusercontent.com/qMj5GNwAn6EZRBXnenYqYgHTrZNE0dG3cQhnbdgeZhMYdqTZSwbZhBqMw5qopC_KcxlqKcMBm-N1gXdfyees=w1037-h1057)
 
 
 # 成品
 **正面**
-![photo](https://storage.googleapis.com/catlife/cat/IMG_4939.jpg)
+![photo](https://lh4.googleusercontent.com/f_Gg6zH4AFEd2mZYpNPeEVjx7oSZ0-rWG77THSEEqrF5rE7Ka5yzhiWSBw8UHz-8uEqv3QoEiwnaSpyu7Spm=w1920-h1057-rw)
 
 **側面**
-![photo](https://storage.googleapis.com/catlife/cat/IMG_4944.jpg)
+![photo](https://lh5.googleusercontent.com/Fwebitj8KaYNgBqIJ4-zEsIsl95TpEQdZkJmBKGxmQQGhmBVaXoba6Unc1ihqvq8-oIffs_bUhj0LJJ_UWCW=w1920-h1057-rw)
 
 **頂部**
-![photo](https://storage.googleapis.com/catlife/cat/IMG_4943.jpg)
+![photo](https://lh5.googleusercontent.com/HHQz4oZA8hF0pSDZQoV8O5c9O-3KImGVD_7h_fp9wGfJPt9e7O8X7Gjp3TGcNc90zC6Hl72ceBykbOlwCMwl=w1920-h1057-rw)
 
 **內裝**
-![photo](https://storage.googleapis.com/catlife/cat/IMG_4940.jpg)
+![photo](https://lh3.googleusercontent.com/76UYh9odPYMG4MFR4uUH05aNmIcsYpd9ZYaJNvNmsPu6VBCz4o9s490V_Xqz6Nt4QUj-eoE6FhIsgdqYD83C=w1920-h1057-rw)
 
 **攝影機**
-![photo](https://storage.googleapis.com/catlife/cat/IMG_4941.jpg)
+![photo](https://lh6.googleusercontent.com/dawGcg_KHQTZoexyHxEtiqQw6ei-qyiJoPF6e08ZJHQP5Pr-25pXui_PRuH7cuD2y_6xbKw3fGJ6oPLd7eKA=w1920-h1057-rw)
 
 **Line Bot**
-![photo](https://storage.googleapis.com/catlife/cat/IMG_3188E9FC63C3-1.jpeg)
+![photo](https://lh3.googleusercontent.com/CogfUN8DHxrWLU3O69iE1D6ipeBpRxwEvSMD9p1yzRBjDgPpnC0Q_9QmS1vSTefGA0akJPmDGKQWIpXcSfLm=w1037-h1057-rw)
 
 **影片:**
 - https://youtu.be/Q7wo56F3GwQ (白天)
